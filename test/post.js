@@ -1,5 +1,5 @@
-var post = require("../Entidades/post");
-var tag = require("../Entidades/tag");
+var post = require("../src/Entidades/post");
+var tag = require("../src/Entidades/tag");
 var expect = require("chai").expect;
 
 describe("Test de Post", function(){
