@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Miguel-y-Oscar/Geolocalizaciones-de-medios-sociales.svg?branch=master)](https://travis-ci.org/Miguel-y-Oscar/Geolocalizaciones-de-medios-sociales)
+
 # Rastreador de geolocalización
 
 **Desarrolladores:** [Óscar Jiménez Fernández](https://github.com/yoskitar) - [Miguel Jiménez Cazorla](https://github.com/iMiguel10)
