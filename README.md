@@ -1,5 +1,6 @@
 [![codecov](https://codecov.io/gh/Miguel-y-Oscar/Geolocalizaciones-de-medios-sociales/branch/master/graph/badge.svg)](https://codecov.io/gh/Miguel-y-Oscar/Geolocalizaciones-de-medios-sociales)
 [![Build Status](https://travis-ci.org/Miguel-y-Oscar/Geolocalizaciones-de-medios-sociales.svg?branch=master)](https://travis-ci.org/Miguel-y-Oscar/Geolocalizaciones-de-medios-sociales)
+[![DevQAGRX](https://img.shields.io/badge/DevQAGRX-blueviolet?style=for-the-badge&logo=Git)](https://github.com/JJ/curso-tdd)
 
 
 # Rastreador de geolocalización
