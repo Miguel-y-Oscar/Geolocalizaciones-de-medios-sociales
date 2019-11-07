@@ -1,12 +1,13 @@
 class Post {
-    constructor(id, medio, geolocalizacion){
+    constructor(id, medio, geolocalizacion, text){
       Post.id = id;
       Post.medio = medio;
       Post.geolocalizacion = geolocalizacion;
+      Post.text = text;
     }
-   
-    get post(){
-        return Post;
+
+    get text(){
+        return Post.text;
     }
 
     get id(){
@@ -18,7 +19,7 @@ class Post {
     }
 
     get toString(){
-        return (Post.id.toString() + ", " + Post.medio.toString() + ", " + Post.geolocalizacion.toString());
+        return (Post.id.toString() + ", " + Post.medio.toString() + ", " + Post.geolocalizacion.toString() + ", " + Post.text.toString());
     }
 }
 

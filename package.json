@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec --timeout 10000 --exit",
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec --timeout 10000 --exit && codecov",
     "start": "nodemon --exec babel-node ./src/app.js"
   },
   "keywords": [],
@@ -15,8 +15,10 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-3": "^6.24.1",
     "chai": "^4.2.0",
+    "codecov": "^3.6.1",
     "express": "^4.17.1",
     "instagram-nodejs-without-api": "^1.2.0",
+    "istanbul": "^0.4.5",
     "mocha": "^6.2.2",
     "nodemon": "^1.19.4",
     "supertest": "^4.0.2"

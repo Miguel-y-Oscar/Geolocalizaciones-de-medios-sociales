@@ -4,10 +4,6 @@ class Tag {
         Tag.refPost = ref;
         Tag.geolocalizacion = geo;
     }
-   
-    get tag(){
-        return Tag;
-    }
 
     get geo(){
         return Tag.geolocalizacion;
